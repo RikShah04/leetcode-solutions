@@ -1,0 +1,37 @@
+"""
+Problem: Leetcode 36 Valid Sudoku
+
+Intuition: We can create hashsets for each row/col/square and iterate over every board element
+           if it is not blank, and the value exists in the row/col/square we know the board is not valid
+           in order to index the squares, we do int division on both the row and col, which groups every
+           3 rows and cols together, giving each square a key ranging from (0,0) to (2,2)
+
+Time Complexity: O(n^2) where n is the number of rows because we iterate over every element in every row once
+
+Space Complexity: O(n^2) where n is the number of rows because at worst we store every element from the 2d array 3 times
+
+note: since the board is a fixed size (9x9) both are technically O(1)
+
+"""
+
+class Solution:
+    def isValidSudoku(self, board: List[List[str]]) -> bool:
+
+        squares = defaultdict(set)
+        cols = defaultdict(set)
+        rows = defaultdict(set)
+
+        for row in range(len(board)):
+            for col in range(len(board)):
+                curr = board[row][col]
+
+                if curr != ".":
+                    sqreIndex = (row//3, col//3)
+                    if curr in squares[sqreIndex] or curr in rows[row] or curr in cols[col]:
+                        return False
+                    squares[sqreIndex].add(curr)
+                    rows[row].add(curr)
+                    cols[col].add(curr)
+
+        return True
+
