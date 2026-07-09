@@ -1,7 +1,6 @@
 # LeetCode Solutions
 
 My solutions to the NeetCode 150 problem set, organized by topic.
-Working through these as part of my software engineering study plan.
 
 ## Progress
 
