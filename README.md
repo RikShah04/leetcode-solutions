@@ -8,7 +8,7 @@ Working through these as part of my software engineering study plan.
 | Topic | Problems | Status |
 |-------|----------|--------|
 | Arrays & Hashing | 9 | Finished |
-| Two Pointers | 5 | Not Started |
+| Two Pointers | 5 | In Progress |
 | Sliding Window | 6 | Not Started |
 | Stack | 7 | Not Started |
 | Binary Search | 7 | Not Started |
