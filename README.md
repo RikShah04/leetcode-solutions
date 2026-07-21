@@ -7,8 +7,8 @@ My solutions to the NeetCode 150 problem set, organized by topic.
 | Topic | Problems | Status |
 |-------|----------|--------|
 | Arrays & Hashing | 9 | Finished |
-| Two Pointers | 5 | In Progress |
-| Sliding Window | 6 | Not Started |
+| Two Pointers | 5 | Finished |
+| Sliding Window | 6 | In Progress|
 | Stack | 7 | Not Started |
 | Binary Search | 7 | Not Started |
 | Linked List | 11 | Not Started |
