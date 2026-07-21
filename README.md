@@ -8,7 +8,7 @@ My solutions to the NeetCode 150 problem set, organized by topic.
 |-------|----------|--------|
 | Arrays & Hashing | 9 | Finished |
 | Two Pointers | 5 | Finished |
-| Sliding Window | 6 | In Progress|
+| Sliding Window | 6 | In Progress |
 | Stack | 7 | Not Started |
 | Binary Search | 7 | Not Started |
 | Linked List | 11 | Not Started |
@@ -16,8 +16,14 @@ My solutions to the NeetCode 150 problem set, organized by topic.
 | Tries | 3 | Not Started |
 | Heap / Priority Queue | 7 | Not Started |
 | Backtracking | 9 | Not Started |
-| Graphs | 13 | Not Started |
-| Dynamic Programming | 40 | Not Started |
+| Graphs | 19 | Not Started |
+| Dynamic Programming | 23 | Not Started |
+| Greedy | 8 | Not Started |
+| Intervals | 6 | Not Started |
+| Math & Geometry | 8 | Not Started |
+| Bit Manipulation | 7 | Not Started |
+
+**Total: 150 problems across 16 topics**
 
 ## Language
 Python
