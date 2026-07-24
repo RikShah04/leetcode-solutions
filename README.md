@@ -9,7 +9,7 @@ My solutions to the NeetCode 150 problem set, organized by topic.
 | Arrays & Hashing | 9 | Finished |
 | Two Pointers | 5 | Finished |
 | Sliding Window | 6 | In Progress |
-| Stack | 7 | Not Started |
+| Stack | 7 | In Progress |
 | Binary Search | 7 | Not Started |
 | Linked List | 11 | Not Started |
 | Trees | 15 | Not Started |
